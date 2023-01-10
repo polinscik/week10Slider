@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="/normalize.css" />
+        <link rel="stylesheet" href="/styles.css" />
+    </head>
+    <body>
+        <main class="main">
+            <section class="section">
+                <div class="gallery">
+                    <img
+                        class="gallery_img"
+                        id="cookieSnowman"
+                        src="/assets/images/snowman-cookie.jpg"
+                        alt=""
+                    />
+                    <img
+                        class="gallery_img"
+                        id="cookieStar"
+                        src="/assets/images/star-cookie.jpg"
+                        alt=""
+                    />
+                </div>
+                <div class="navigation">
+                    <button class="button" onClick="showPreviousPicture()">
+                        Назад
+                    </button>
+                    <button class="button" onClick="showNextPicture()">
+                        Вперед
+                    </button>
+                </div>
+            </section>
+        </main>
+        <script src="/training.js"></script>
+    </body>
+</html>

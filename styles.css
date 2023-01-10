@@ -1,0 +1,41 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    max-width: 40vw;
+    max-height: 40vh;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+img {
+    max-width: 100%;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.button {
+    background-color: #ffe4c4;
+    color: olive;
+    border: 0.4em solid #ffe4c400;
+    padding: 0.5em 2em;
+}
+.button:hover {
+    background-color: #ffce92;
+    border-color: #ffe4c4;
+}
+#cookieStar {
+    display: none;
+}
